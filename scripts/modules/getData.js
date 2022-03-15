@@ -19,7 +19,8 @@ export function getData(){
     })
     .then((data) => {
         console.log('data:')
-      console.log(data)
+        console.log(data.results)
+        renderData(data)
 
     })
     .catch((err) => {

@@ -4,15 +4,19 @@ export function renderData(data) {
   const results = data.results
 
   results.forEach((item, i) => {
-    console.log(item)
     resultatenLijst.insertAdjacentHTML('afterbegin',
         `<li>
-        <img src="" alt"">
-        <h3>${
-            item.authors ? item.authors[0] : "Geen samenvatting"
-          }</h3>
-        <p>Hoi</p>
+        <img src="${
+            item.coverimages ? item.coverimages[1] : "Geen foto"
+          }" >
+        <div>
+        <h3>
+        ${item.titles[0]}
+        </h3>
+        <p>
+        ${item.authors ? item.authors[0] : "Geen auhtor"}
+        </p>
+        </div>
         </li>`)
-    container.insertAdjacentHTML("afterbegin", html)
   })
 }
