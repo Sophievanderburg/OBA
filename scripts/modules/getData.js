@@ -1,4 +1,5 @@
 import { renderData } from "./renderData.js"
+import { hideLoadingState} from "./states.js"
 
 const cors = "https://cors-anywhere.herokuapp.com/"
 const endpoint = "https://zoeken.oba.nl/api/v1/search/?q="
@@ -20,8 +21,8 @@ export function getData(){
     .then((data) => {
         console.log('data:')
         console.log(data.results)
+        hideLoadingState()
         renderData(data)
-
     })
     .catch((err) => {
         console.log('error')
