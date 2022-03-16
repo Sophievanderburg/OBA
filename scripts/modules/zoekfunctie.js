@@ -1,4 +1,4 @@
-import { getData } from './getdata.js'
+import { getData } from './getData.js'
 
 const zoekBalk = document.querySelector("input[type='text']")
 
