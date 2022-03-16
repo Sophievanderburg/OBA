@@ -3,50 +3,64 @@ import {resultatenLijst} from './renderData.js'
 export const form = document.querySelector('main > form')
 
 export function laadOpties(data){
-    console.log("heyyy")
     let opties = data.results
-    // let bestaandeJaartallen = data.results.year
 
-    let jaartallen =[]
+    let alleJaartallen =[]
+    let jaartallen = []
 
-    // opties.forEach((item, i) =>{
-    //     item.year
-    // })
+    console.log('alleJaartallen')
+    console.log(alleJaartallen)
 
+    opties.forEach(item =>{
+        alleJaartallen.push(item.year)
+    })
 
-    opties.forEach(item => {
-        if(jaartallen.indexOf(opties[i].year) == -1) {
-          // If the author is not in the array, push it in it
-          jaartallen.push(opties[i].year);
+    alleJaartallen.forEach(item => {
+        if(jaartallen.indexOf(item) == -1) {
+          jaartallen.push(item);
         }
     });
-
-    console.log('jaartallen')
-    console.log(jaartallen)
-    
-    jaartallen = [...new Set(bestaandeJaartallen.flat(1))]
-    console.log(jaartallen)
     
 
+    jaartallen.forEach((item) => {
+        form.insertAdjacentHTML('beforeend',
+            `
+            <input type="checkbox" id="${item}">
+            <label for="${item}">${item}</label
+            `)
+      })
+}
+
+export function filter(){
+
+}
 
 
+function filteredAuthors(quotes) {
+    let checkedInputs = [...authorForm.querySelectorAll('input:checked')].map(el => el.id);
+    console.log('checkedInputs:')
+    console.log(checkedInputs)
 
+    // Filter de oorspronkelijke dataset op de entries die in de checkbox aangevinkt zijn
+    let newData = quotes.data.filter(element => {
+      // Als een van de checkbox entries matcht met 1 van de dataset entries
+        if(checkedInputs.includes(element.name)) {
+            // Voeg 'm toe aan de nieuwe array
+            return true;
+        } else {
+            // Filter 'm uit de nieuwe array
+            return false;
+        }
+    })
+       
+    // gefilterde array
+    console.log(newData);
+    cleanElement();
 
-
-
-
-
-
-
-
-    // console.log(bestaandeJaartallen)
-
-
-    // opties.forEach((item, i) => {
-    //     form.insertAdjacentHTML('beforeend',
-    //         `<p>${item.year}</p>`)
-    //   })
-
-
-
+    if (newData.length > 0){
+        displatyFilteredQuotes(newData);
+    } else{
+        renderData(quotes);
+    }
+    
 }

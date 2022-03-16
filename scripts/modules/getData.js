@@ -23,6 +23,6 @@ export function getData(url){
     })
     .catch((err) => {
         console.log('error')
-      console.log(err)
+        console.log(err)
     })
 }
