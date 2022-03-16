@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Avenir;
+    src: url(./fonts/Avenir.ttc);
+}
+
 *{
     margin: 0; padding: 0;
     box-sizing: border-box;
