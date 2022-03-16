@@ -1,4 +1,6 @@
 import {resultatenLijst} from './renderData.js'
+import {renderData} from './renderData.js'
+import {displayFilteredJaartallen} from './renderData.js'
 
 export const form = document.querySelector('main > form')
 
@@ -7,9 +9,6 @@ export function laadOpties(data){
 
     let alleJaartallen =[]
     let jaartallen = []
-
-    console.log('alleJaartallen')
-    console.log(alleJaartallen)
 
     opties.forEach(item =>{
         alleJaartallen.push(item.year)
@@ -29,38 +28,36 @@ export function laadOpties(data){
             <label for="${item}">${item}</label
             `)
       })
+
+      form.addEventListener('change', event => {
+        filter(data, event)
+    })
 }
 
-export function filter(){
+export function filter(data){
+    let checkedJaartallen = [...form.querySelectorAll('input:checked')].map(el => el.id);
 
-}
-
-
-function filteredAuthors(quotes) {
-    let checkedInputs = [...authorForm.querySelectorAll('input:checked')].map(el => el.id);
     console.log('checkedInputs:')
-    console.log(checkedInputs)
+    console.log(checkedJaartallen)
 
-    // Filter de oorspronkelijke dataset op de entries die in de checkbox aangevinkt zijn
-    let newData = quotes.data.filter(element => {
-      // Als een van de checkbox entries matcht met 1 van de dataset entries
-        if(checkedInputs.includes(element.name)) {
+    let newData = data.results.filter(element => {
+        // Als een van de checkbox entries matcht met 1 van de dataset entries
+        if(checkedJaartallen.includes(element.year)) {
             // Voeg 'm toe aan de nieuwe array
             return true;
-        } else {
-            // Filter 'm uit de nieuwe array
-            return false;
-        }
+            } else {
+                // Filter 'm uit de nieuwe array
+                return false;
+            }
     })
-       
-    // gefilterde array
+
+    console.log('newData:');
     console.log(newData);
-    cleanElement();
 
     if (newData.length > 0){
-        displatyFilteredQuotes(newData);
+        displayFilteredJaartallen(newData);
     } else{
-        renderData(quotes);
+        renderData(data);
     }
-    
 }
+

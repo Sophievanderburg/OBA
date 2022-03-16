@@ -22,3 +22,26 @@ export function renderData(data) {
             </li>`)
   })
 }
+
+
+export function displayFilteredJaartallen (newData) {
+    console.log('newData2')
+    console.log(newData)
+    resultatenLijst.innerHTML=""
+    newData.forEach(item => {
+        resultatenLijst.insertAdjacentHTML('afterbegin', 
+        `<li>
+            <a href="${item.detailLink}">
+            <img src="${item.coverimages ? item.coverimages[1] : "Geen foto"}" >
+            <div>
+                <h3>
+                    ${item.titles[0]}
+                </h3>
+                <p>
+                    ${item.authors ? item.authors[0] : "Geen auhtor"}
+                </p>
+            </div>
+            </a>
+            </li>`)
+        })
+}
