@@ -25,8 +25,6 @@ export function renderData(data) {
 
 
 export function displayFilteredJaartallen (newData) {
-    console.log('newData2')
-    console.log(newData)
     resultatenLijst.innerHTML=""
     newData.forEach(item => {
         resultatenLijst.insertAdjacentHTML('afterbegin', 

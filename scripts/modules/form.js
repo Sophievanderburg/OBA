@@ -51,9 +51,6 @@ export function filter(data){
             }
     })
 
-    console.log('newData:');
-    console.log(newData);
-
     if (newData.length > 0){
         displayFilteredJaartallen(newData);
     } else{
