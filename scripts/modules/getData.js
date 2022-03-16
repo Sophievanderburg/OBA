@@ -1,5 +1,7 @@
 import { renderData } from "./renderData.js"
 import { hideLoadingState} from "./states.js"
+import {laadOpties, form} from "./form.js"
+
 
 const secret = "4289fec4e962a33118340c888699438d"
 
@@ -16,6 +18,7 @@ export function getData(url){
         console.log('data:')
         console.log(data.results)
         hideLoadingState()
+        laadOpties(data)
         renderData(data)
     })
     .catch((err) => {
