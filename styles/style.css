@@ -55,14 +55,41 @@ main{
     padding: 1em;
 }
 
+main > form{
+    width: 100%;
+    height: auto;
+}
+
 main > form input[type='text']{
     background-color: #e6e6e6;
     border: none;
     padding: 0.5em 1em;
+    margin-bottom: 1.5em;
 
     width: 100%;
     border-radius: 2em;
     font-size: 1em;
+}
+
+main > form div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main > form div input[type='checkbox']{
+    display: none;
+}
+
+main > form div label{
+    background-color: #e6e6e6;
+    padding: 0.5em 1.5em;
+    margin: 0.5em 0.5em 0 0;
+    border-radius: 1.5em;
+}
+
+main > form div input[type='checkbox']:checked + label{
+    background-color: #B4C800;
 }
 
 main > div:first-of-type{

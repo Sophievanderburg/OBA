@@ -3,6 +3,8 @@ import {renderData} from './renderData.js'
 import {displayFilteredJaartallen} from './renderData.js'
 
 export const form = document.querySelector('main > form')
+export const formDiv = document.querySelector('main > form div')
+
 
 export function laadOpties(data){
     let opties = data.results
@@ -20,9 +22,10 @@ export function laadOpties(data){
         }
     });
     
+    jaartallen.sort()
 
     jaartallen.forEach((item) => {
-        form.insertAdjacentHTML('beforeend',
+        formDiv.insertAdjacentHTML('beforeend',
             `
             <input type="checkbox" id="${item}">
             <label for="${item}">${item}</label
