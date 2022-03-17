@@ -125,6 +125,12 @@ main div:nth-of-type(2) select{
 }
 
 /*------------- Boeken ----------------*/
+main > ul:first-of-type > p{
+    font-size: 2em;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
 main > ul:first-of-type{
     display: grid;
     grid-template-columns: 1fr 1fr ;
