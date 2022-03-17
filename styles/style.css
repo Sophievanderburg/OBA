@@ -47,6 +47,8 @@ header nav a img{
 
 header > img{
     width: 150%;
+    max-height: 10em;
+    object-fit: cover;
 }
 
 /* ------------------- main --------------------- */
@@ -73,15 +75,6 @@ main input[type='text']{
 
     position: relative;
 }
-
-main input[type='text']::before{
-    content: "\f002";
-    height: 1em;
-    width: 1em;
-
-    position: absolute;
-}
-
 
 /*------------- jaartallen ----------------*/
 main > form{
@@ -211,7 +204,6 @@ main > ul:first-of-type li a div h3{
     max-height: 50%;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* white-space: nowrap; */
 }
 
 
