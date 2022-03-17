@@ -29,7 +29,27 @@ export function getData(){
         hideLoadingState()
         renderData(data)
         laadOpties(data)
-        
+    })
+    .catch((err) => {
+        console.log('error')
+        console.log(err)
+    })
+}
+
+export function getData2(){
+    const cors = "https://cors-anywhere.herokuapp.com/"
+    let url = `${cors}http://obaliquid.staging.aquabrowser.nl/onderwijs/api/v1/search/?q=eigen%20onderneming+NOT+lom.lifecycle.contribute.publisher%3Dwikipedia&authorization=a57b7bbd1cde2f6fb7ce5b3f2d1d96e0`
+
+    console.log('url2')
+    console.log(url)
+
+  fetch(url)
+    .then((response) => {
+      return response.json()
+    })
+    .then((data) => {
+        console.log('data2:')
+        console.log(data)
     })
     .catch((err) => {
         console.log('error')

@@ -12,7 +12,6 @@
 
 header, main, footer{
     margin: 0 auto;
-    max-width: 1000px;
 }
 
 /* ------------------- lettertype --------------------- */
@@ -69,6 +68,16 @@ main input[type='text']{
     width: 100%;
     border-radius: 2em;
     font-size: 1em;
+
+    position: relative;
+}
+
+main input[type='text']::before{
+    content: "\f002";
+    height: 1em;
+    width: 1em;
+
+    position: absolute;
 }
 
 main > form div{
@@ -114,19 +123,40 @@ main div:nth-of-type(2) select{
 
 /* resultaten */
 main > ul:first-of-type{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap:2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 0.5em;
 
     list-style-type: none;
     margin: 0.5em auto 0 auto;
+}
 
-    max-width: 700px;
+@media (min-width: 700px){
+    main > ul:first-of-type {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px){
+    main > ul:first-of-type {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    main > ul:first-of-type {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1300px){
+    main > ul:first-of-type {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }
 
 main > ul:first-of-type li{
-    width: 48%;
+    width: 100%;
     background-color: #B4C800;
     box-shadow: 0 0 15px lightgray;
     border-radius: 1em;
