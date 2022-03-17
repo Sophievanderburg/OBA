@@ -3,5 +3,5 @@ import {showLoadingState} from "./modules/states.js"
 
 
 showLoadingState()
-getData ()
+getData()
 getData2()

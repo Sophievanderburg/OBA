@@ -7,7 +7,6 @@ import {zoekBalk} from "./zoekfunctie.js"
 
 export function getData(){
     let query = zoekBalk.value ? zoekBalk.value : "ondernemen"
-    console.log(query)
     const cors = "https://cors-anywhere.herokuapp.com/"
     const endpoint = "https://zoeken.oba.nl/api/v1/search/?q="
     const key = "8854ebaac6d5b76ab5a25a372d249680"
@@ -17,15 +16,11 @@ export function getData(){
     
     const config = {Authorization: `Bearer ${secret}`,}
 
-    console.log(url)
-
   fetch(url, config)
     .then((response) => {
       return response.json()
     })
     .then((data) => {
-        console.log('data:')
-        console.log(data.results)
         hideLoadingState()
         renderData(data)
         laadOpties(data)
@@ -38,7 +33,7 @@ export function getData(){
 
 export function getData2(){
     const cors = "https://cors-anywhere.herokuapp.com/"
-    let url = `${cors}http://obaliquid.staging.aquabrowser.nl/onderwijs/api/v1/search/?q=eigen%20onderneming+NOT+lom.lifecycle.contribute.publisher%3Dwikipedia&authorization=a57b7bbd1cde2f6fb7ce5b3f2d1d96e0`
+    let url = `${cors}http://obaliquid.staging.aquabrowser.nl/onderwijs/api/v1/search/?q=eigen%20onderneming+NOT+lom.lifecycle.contribute.publisher%3Dwikipedia&authorization=a57b7bbd1cde2f6fb7ce5b3f2d1d96e0&output=json`
 
     console.log('url2')
     console.log(url)
@@ -47,9 +42,9 @@ export function getData2(){
     .then((response) => {
       return response.json()
     })
-    .then((data) => {
+    .then((data2) => {
         console.log('data2:')
-        console.log(data)
+        console.log(data2.results)
     })
     .catch((err) => {
         console.log('error')
