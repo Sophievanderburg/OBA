@@ -24,6 +24,7 @@ export function laadOpties(data){
     
     jaartallen.sort()
 
+    formDiv.innerHTML=""
     jaartallen.forEach((item) => {
         formDiv.insertAdjacentHTML('beforeend',
             `
