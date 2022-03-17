@@ -5,7 +5,7 @@ export const h3 = document.querySelector("main div:first-of-type")
 
 export function zoeken (){
     getData()
-    h3.insertAdjacentElement('afterbegin', `${query}`)
+    // h3.insertAdjacentElement('afterbegin', `${query}`)
 }
 
 zoekBalk.addEventListener("keydown", (e) => {
