@@ -215,7 +215,7 @@ main > ul:first-of-type li a div h3{
 }
 
 
-/*------------- open leermaterialen ------------*/
+/*------------- Open leermaterialen ------------*/
 main > ul:nth-of-type(2){
     display: grid;
     grid-template-columns: 1fr;
