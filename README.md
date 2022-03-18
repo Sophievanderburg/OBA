@@ -1,10 +1,10 @@
-#  Welcome to the Get Inspired repo! ✨
+#  Welkom bij de OBA repo! 📚
 
-Link to Github Pages: [sophievanderburg.github.io/oba/](sophievanderburg.github.io/oba/)
+Link naar Github Pages: [sophievanderburg.github.io/oba/](sophievanderburg.github.io/oba/)
 
 
 ## About the SPA
-### The assignment
+### De opdracht
 >  💬 The used user story <br>
 >  Als jonge ondernemer wil ik meer informatie vinden over het opzetten van een onderneming, om zodoende meer kans te hebben op succes.
 
