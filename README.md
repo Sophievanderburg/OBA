@@ -39,9 +39,6 @@ Als je bij de code-tab in mijn Github repo bent, zie je een groene knop met de t
 Om de API te kunnen gebruiken heb je toegang nodig. Dit kan je aanvragen bij: [https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo)<br>
 Na een tijdje gaat deze toegang weer uit, dus check deze link als je geen reden kan vinden dat hij het niet doet.
 
-### The API
-
-
 
 ## Wat mij nog niet gelukt is
 - Sorteren op releveantie, jaar & titel.
