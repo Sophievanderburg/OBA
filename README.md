@@ -11,16 +11,17 @@ Link to Github Pages: [sophievanderburg.github.io/oba/](sophievanderburg.github.
 ### Mijn inkijk op de opdracht
 Ik wil iets bouwen voor jonge ondernemers. Daaronder versta ik de doelgroep 18 t/m 24 jaar. In de wereld van tegenwoordig lezen we bijna niet meer. Alles gaat op beeld. Hierop ga ik inspelen: Geen tekst maar alleen beeld.<br>
 Ik kwam er alleen achter dat bij de open leermaterialen van de OBA geen beeld zit. Daarom heb ik hier wel tekst gebruik.<br>
-Verder is bij het starten van een onderneming is actuele data erg belangrijk. Daarom heb ik een filter op jaartal toegevoegd. Algemenen informatie van vroeger kan wel nog helpen bij het runnen van een onderneming, maar voor het opzetten is de actuele informatie veel belangrijker.
 
 
 ## Interactie 
 ### 🔍 Zoeken in ondernemerschap 
+Jonge mensen hebben ee druk leven. Tijd is geld. Dus als je opzoek bent naar een specifiek ding in ondernemerschap kun je daar naar zoeken. Zo kom je sneller bij de info die je zoekt. 
 
 ### ⏰ Filter op jaar
+Bij het starten van een onderneming is actuele data erg belangrijk. Daarom heb ik een filter op jaartal toegevoegd. Algemenen informatie van vroeger kan wel nog helpen bij het runnen van een onderneming, maar voor het opzetten is de actuele informatie veel belangrijker.
 
-### :arrow_up_down: Sorteren op... (Doet niks)
-
+### :arrow_up_down: Sorteren op... (doet nog niks)
+Het idee was dat je ook zelf kan sorteren. Alleen heb ik door tijdsnood hier niet meer aan kunnen werken. De bijbehorende HTML heb ik wel laten staan voor als er nog verder gewerkt aan gaat worden. (door mij of iemand anders). Maar voor nu doet het niks
 
 
 
