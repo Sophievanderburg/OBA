@@ -8,10 +8,10 @@ Link to Github Pages: [sophievanderburg.github.io/oba/](sophievanderburg.github.
 >  💬 The used user story <br>
 >  Als jonge ondernemer wil ik meer informatie vinden over het opzetten van een onderneming, om zodoende meer kans te hebben op succes.
 
-
 ### Mijn inkijk op de opdracht
-Ik wil iets bouwen voor jonge ondernemers. Daaronder versta ik de doelgroep 18 t/m 24 jaar. In de wereld van tegenwoordig lezen we bijna niet meer. Alles gaat op beeld. Hierop ga ik inspelem: Geen tekst maar alleen beeld.<br>
-Ik kwam er alleen achter dat bij de open leermaterialen van de OBA geen beeld zit. Daarom heb ik hier wel tekst gebruik.
+Ik wil iets bouwen voor jonge ondernemers. Daaronder versta ik de doelgroep 18 t/m 24 jaar. In de wereld van tegenwoordig lezen we bijna niet meer. Alles gaat op beeld. Hierop ga ik inspelen: Geen tekst maar alleen beeld.<br>
+Ik kwam er alleen achter dat bij de open leermaterialen van de OBA geen beeld zit. Daarom heb ik hier wel tekst gebruik.<br>
+Verder is bij het starten van een onderneming
 
 
 ## Interactie 
@@ -26,8 +26,8 @@ Ik kwam er alleen achter dat bij de open leermaterialen van de OBA geen beeld zi
 
 ## Practical information
 ### Activity diagram
-This is a diagram of how the SPA works <br>
-
+This is a diagram of how the SPA works <br><br>
+<img width="1098" alt="Screenshot 2022-03-18 at 11 13 25" src="https://user-images.githubusercontent.com/70577898/158984344-b55b9008-b278-4e26-8ba8-5f5614a73215.png">
 
 
 ### Repo installeren
