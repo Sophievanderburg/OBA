@@ -9,12 +9,16 @@ Link to Github Pages:
 
 
 >  💬 The used user story <br>
-> 
+>  Als jonge ondernemer wil ik meer informatie vinden over het opzetten van een onderneming, om zodoende meer kans te hebben op succes.
+
+### Mijn inkijk
 
 ## Interactie 
 ### 🔍 Zoeken in ondernemerschap 
 
-### ⏰ Filter op year 
+### ⏰ Filter op jaar
+
+### :arrow_up_down: Sorteren op... (Doet niks)
 
 
 
@@ -26,15 +30,17 @@ This is a diagram of how the SPA works <br>
 
 
 ### Repo installeren
-If you do not use Github desktop yet, stop with what you are doing and download it now. I've spent to much time messing around in the terminal. So that is a little hint from me to you. 😄 <br>
-If you are at the code-tab on my Github, you see a green button with the text 'code' in it. Click on that button and click on the option 'open with Github Desktop'. This way, it clones my repo on your computer. Now you can adjust my code and write you own. Good luck! 🍀
+Als je Github-desktop nog niet gebruikt, stop dan met wat je aan het doen bent en download het. 😄 <br>
+Als je bij de code-tab in mijn Github repo bent, zie je een groene knop met de tekst 'code' erin. Klik op die knop en klik op de optie 'openen met Github Desktop'. Op deze manier kloont het mijn repo op jouw computer. Nu kun je mijn code aanpassen en je eigen code schrijven. Succes! 🍀
 
 ### How to use
+Om de API te kunnen gebruiken heb je toegang nodig. Dit kan je aanvragen bij: [https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo)<br>
+Na een tijdje gaat deze toegang weer uit, dus check deze link als je geen reden kan vinden dat hij het niet doet.
 
 ### The API
 
 
 
-## What I would do if I had more time
-- 
+## Wat mij nog niet gelukt is
+- Sorteren op releveantie, jaar & titel.
 
