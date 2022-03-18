@@ -11,7 +11,7 @@ Link to Github Pages: [sophievanderburg.github.io/oba/](sophievanderburg.github.
 ### Mijn inkijk op de opdracht
 Ik wil iets bouwen voor jonge ondernemers. Daaronder versta ik de doelgroep 18 t/m 24 jaar. In de wereld van tegenwoordig lezen we bijna niet meer. Alles gaat op beeld. Hierop ga ik inspelen: Geen tekst maar alleen beeld.<br>
 Ik kwam er alleen achter dat bij de open leermaterialen van de OBA geen beeld zit. Daarom heb ik hier wel tekst gebruik.<br>
-Verder is bij het starten van een onderneming
+Verder is bij het starten van een onderneming is actuele data erg belangrijk. Daarom heb ik een filter op jaartal toegevoegd. Algemenen informatie van vroeger kan wel nog helpen bij het runnen van een onderneming, maar voor het opzetten is de actuele informatie veel belangrijker.
 
 
 ## Interactie 
