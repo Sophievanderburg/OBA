@@ -1,17 +1,18 @@
 #  Welcome to the Get Inspired repo! ✨
 
-Link to Github Pages: 
+Link to Github Pages: [sophievanderburg.github.io/oba/](sophievanderburg.github.io/oba/)
 
-##
 
 ## About the SPA
 ### The assignment
-
-
 >  💬 The used user story <br>
 >  Als jonge ondernemer wil ik meer informatie vinden over het opzetten van een onderneming, om zodoende meer kans te hebben op succes.
 
-### Mijn inkijk
+
+### Mijn inkijk op de opdracht
+Ik wil iets bouwen voor jonge ondernemers. Daaronder versta ik de doelgroep 18 t/m 24 jaar. In de wereld van tegenwoordig lezen we bijna niet meer. Alles gaat op beeld. Hierop ga ik inspelem: Geen tekst maar alleen beeld.<br>
+Ik kwam er alleen achter dat bij de open leermaterialen van de OBA geen beeld zit. Daarom heb ik hier wel tekst gebruik.
+
 
 ## Interactie 
 ### 🔍 Zoeken in ondernemerschap 
